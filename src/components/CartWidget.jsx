@@ -1,10 +1,10 @@
 import React from "react";
 
-const Carrito = ()=>{
+const CartWidget = ()=>{
     return(
         <div style={{ float: 'right', width:'auto' }}>
             <button type="button" className="btn btn-primary position-relative" >
-                Carrito
+                <img src="carrito.png" width='20px'></img>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                     2
                     <span className="visually-hidden">productos </span>
@@ -14,4 +14,4 @@ const Carrito = ()=>{
     )
 }
 
-export default Carrito ; 
+export default CartWidget ; 
