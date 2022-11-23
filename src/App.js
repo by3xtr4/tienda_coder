@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.svg'; ///inactivo aun
 import './App.css';
 import Menu from './components/Menu';
 import Slide from './components/Slide';
