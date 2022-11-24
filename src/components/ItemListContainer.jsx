@@ -1,7 +1,7 @@
-function ItemListContainer(greeting){
+function ItemListContainer(props){
     return(
         <div>
-            
+            {props.greeting}
         </div>
     )
 }

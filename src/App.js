@@ -14,7 +14,7 @@ function App() {
       <Logo/>
       <Navbar/>
       <ItemListContainer
-      greeting = "Hola"
+      greeting = {"Bienvenidos a Paiball"}
       />
       <Slide/>
       <News/>
