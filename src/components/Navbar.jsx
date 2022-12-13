@@ -2,6 +2,7 @@ import React from "react";
 import Boton from "./Boton";
 import Boton1 from "./Boton_inicio";
 import CartWidget from "./CartWidget";
+import { Link } from "react-router-dom";
 
 const Navbar = ()=>{
     return(
@@ -15,36 +16,55 @@ const Navbar = ()=>{
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
                 <ul className="navbar-nav">
-                    <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li className="nav-item dropdown nav-link">
+                    <div className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Nosotros
-                    </a>
+                    </div>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a className="dropdown-item" >Quiénes somos</a></li>
-                        <li><a className="dropdown-item" >Contacto</a></li>
+                        <Link to="/Nosotros" className="dropdown-item">
+                            <li><div className="dropdown-item" >Quiénes somos</div></li>
+                        </Link>
+                        <Link to="/Contacto" className="dropdown-item">
+                        <li><div className="dropdown-item" >Contacto</div></li>
+                        </Link>
                     </ul>
                     </li>
+                    <Link to="/Mensajes" className="nav-item nav-link">
+                        <li className="nav-item ">
+                        <div className="nav-link "  role="button"  aria-expanded="false">
+                            
+                            Mensajes
+                            
+                        </div>
+                        
+                        </li>
+                    </Link>
 
+                    <Link to="/Productos" className="nav-item nav-link" >
                     <li className="nav-item ">
-                    <a className="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Contacto
-                    </a>
+                    <div className="nav-link "  role="button"  aria-expanded="false">
+                        
+                        Productos
+                        
+                    </div>
                     
                     </li>
+                    </Link>
 
-                    <li className="nav-item ">
-                    <a className="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    {/* <li className="nav-item ">
+                    <div className="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Mensajes
-                    </a>
+                    </div>
                     
-                    </li>
-
+                    </li> */}
+                    <Link to="/Noticias" className="nav-item nav-link" >
                     <li className="nav-item ">
-                    <a className="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div className="nav-link "  role="button"  aria-expanded="false">
                         Noticias
-                    </a>
+                    </div>
                     
                     </li>
+                    </Link>
                 </ul>
                 </div>
             </div>
@@ -60,48 +80,37 @@ const Navbar = ()=>{
                     
 
                     <ul className="navbar-nav">
-
-                        <Boton1
-                        nombre = "Marcadoras"
-                        handleOnClick = {() => { console.log("boton presionado Marcadoras")}}
-                        />
-                        
+                        <Link to="/category/Marcadoras">
+                            <Boton1
+                            nombre = "Marcadoras"
+                            handleOnClick = {() => { console.log("boton presionado Marcadoras")}}
+                            />
+                        </Link>
+                        <Link to="/category/Protección">
                         <Boton
                         nombre = "Protección"
                         handleOnClick = {() => { console.log("boton presionado Protección")}}
                         />
-
-                        <Boton
-                        nombre = "Táctico"
-                        handleOnClick = {() => { console.log("boton presionado Táctico")}}
-                        />
-
+                        </Link>
+                        <Link to="/category/Accesorios">
                         <Boton
                         nombre = "Accesorios"
                         handleOnClick = {() => { console.log("boton presionado Accesorios")}}
                         />
-
+                        </Link>
+                        <Link to="/category/Vestimenta">
                         <Boton
                         nombre = "Vestimenta"
                         handleOnClick = {() => { console.log("boton presionado Vestimenta")}}
                         />
-
+                        </Link>
+                        <Link to="/category/Calzado">
                         <Boton
                         nombre = "Calzado"
                         handleOnClick = {() => { console.log("boton presionado Calzado")}}
                         />
+                        </Link>
 
-<Boton
-                        nombre = "Camuflaje"
-                        handleOnClick = {() => { console.log("boton presionado Camuflaje")}}
-                        />
-
-                        <Boton
-                        nombre = "Otros"
-                        handleOnClick = {() => { console.log("boton presionado Otros")}}
-                        />
-
-                  
 
                         
 

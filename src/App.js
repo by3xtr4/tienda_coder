@@ -7,17 +7,46 @@ import Logo from './components/Logo';
 import Separador1 from './components/Separador';
 import Footer from './components/Footer';
 import ItemListContainer from './components/ItemListContainer';
+import ContenidoProductos from './components/contenidoProductos';
+import { BrowserRouter, Routes, Route } from "react-router-dom" ; 
+import ContenidoInicio from './components/contenidoInicio';
+import ContenidoContacto from './components/contenidoContacto';
+import ContenidoNosotros from './components/contenidoNosotros';
+import ContenidoMensajes from './components/contenidoMensajes';
+import ContenidoNoticias from './components/contenidoNoticias';
+import CategoryContainer from './components/productos_categoria'
+import ItemContainer from './components/itemConteiner';
 
 function App() {
   return (
     <div className="App">
-      <Logo/>
-      <Navbar/>
+      <BrowserRouter>
+      <div>
+        <Logo/>
+        <Navbar/>
+        <Routes>
+          <Route exact path='/' element={<ContenidoInicio />} />
+          <Route exact path='/Contacto' element={<ContenidoContacto />} />
+          <Route exact path='/Nosotros' element={<ContenidoNosotros />} />
+          <Route exact path='/Mensajes' element={<ContenidoMensajes/>} />
+          <Route exact path='/Noticias' element={<ContenidoNoticias/>} />
+          
+          <Route exact path='/Productos' element={<ContenidoProductos/>} />
+          <Route path='/category/:categoryName' element={<CategoryContainer />} />
+          <Route path='/item/:itemID' element={<ItemContainer />} />
+        
+        </Routes>
+      </div>
+    </BrowserRouter>
+
+      
+      
       <ItemListContainer
       greeting = {"Bienvenidos a Paiball"}
       />
-      <Slide/>
-      <News/>
+
+
+      
       <Separador1/>
       <Footer/>
       
