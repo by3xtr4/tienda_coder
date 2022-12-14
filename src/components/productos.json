@@ -3,31 +3,35 @@
         "id": 1,
         "nombre": "Marcadora One" ,
         "descripcion": "La velocidad máxima permitida de las bolas es de 300 fps (90 m/s). Cuando una bola impacta sobre el cuerpo a altas velocidades, tiene el potencial de causar daño. En cualquier caso, el daño causado depende de la velocidad de la bola, el ángulo de impacto, la calidad de la misma, y la parte del cuerpo sobre la que lo hace. Debido a este probabilidad de causar daños, los jugadores están obligados a llevar puesta una máscara que les proteja los ojos, boca y orejas mientras los dispositivos de bloqueo del cañón no estén colocados",
-        "imagen": "1.jpg",
-        "category":"Marcadoras"
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_702127-MLA31606277261_072019-O.jpg",
+        "category":"Marcadoras",
+        "estado": 1 
 
     },
     {
         "id": 2,
         "nombre": "Marcadora Matrix" ,
         "descripcion": "La velocidad máxima permitida de las bolas es de 900 fps (90 m/s). Cuando una bola impacta sobre el cuerpo a altas velocidades, tiene el potencial de causar daño. En cualquier caso, el daño causado depende de la velocidad de la bola, el ángulo de impacto, la calidad de la misma, y la parte del cuerpo sobre la que lo hace. Debido a este probabilidad de causar daños, los jugadores están obligados a llevar puesta una máscara que les proteja los ojos, boca y orejas mientras los dispositivos de bloqueo del cañón no estén colocados",
-        "imagen": "3.jpg",
-        "category": "Marcadoras" 
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_702127-MLA31606277261_072019-O.jpg",
+        "category": "Marcadoras" ,
+        "estado": 1 
     },
     {
         "id": 3,
         "nombre": "Marcadora One" ,
         "descripcion": "La velocidad máxima permitida de las bolas es de 300 fps (90 m/s). Cuando una bola impacta sobre el cuerpo a altas velocidades, tiene el potencial de causar daño. En cualquier caso, el daño causado depende de la velocidad de la bola, el ángulo de impacto, la calidad de la misma, y la parte del cuerpo sobre la que lo hace. Debido a este probabilidad de causar daños, los jugadores están obligados a llevar puesta una máscara que les proteja los ojos, boca y orejas mientras los dispositivos de bloqueo del cañón no estén colocados",
-        "imagen": "3.jpg",
-        "category": "Marcadoras" 
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_702127-MLA31606277261_072019-O.jpg",
+        "category": "Marcadoras",
+        "estado": 1  
  
     },
     {
         "id": 4,
         "nombre": "Marcadora Six" ,
         "descripcion": "La velocidad máxima permitida de las bolas es de 2000 fps (90 m/s). Cuando una bola impacta sobre el cuerpo a altas velocidades, tiene el potencial de causar daño. En cualquier caso, el daño causado depende de la velocidad de la bola, el ángulo de impacto, la calidad de la misma, y la parte del cuerpo sobre la que lo hace. Debido a este probabilidad de causar daños, los jugadores están obligados a llevar puesta una máscara que les proteja los ojos, boca y orejas mientras los dispositivos de bloqueo del cañón no estén colocados",
-        "imagen": "4.jpg",
-        "category": "Marcadoras" 
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_702127-MLA31606277261_072019-O.jpg",
+        "category": "Marcadoras",
+        "estado": 1  
  
     },
 
@@ -37,23 +41,26 @@
         "id": 5,
         "nombre": "Casco One" ,
         "descripcion": "Este casco está especialmente diseñado para pistolas de aire comprimido y otros deportes al aire libre, Largo, ancho y alto: 23.5 * 26 * 18cm peso: 600g. Los accesorios de 4 pistas tienen juntas de anclaje o dispositivos de separación, que se pueden instalar rápidamente, como luces, cámaras deportivas de visión nocturna, miras, etc.",
-        "imagen": "mira1.jpg",
-        "category":"Proteccion"
+        "imagen": "https://img.freepik.com/fotos-premium/soldados-camuflaje-mascaras-jugando-paintball-bosque-deporte-extremo-arma-neumatica-balas-pintura-o-marcadores-juego-equipo-militar-al-aire-libre-tacticas-combate_266732-28392.jpg",
+        "category":"Proteccion",
+        "estado": 1 
 
     },
     {
         "id": 6,
         "nombre": "Casco Militia" ,
         "descripcion": "Este casco está especialmente diseñado para pistolas de aire comprimido y otros deportes al aire libre, Largo, ancho y alto: 23.5 * 26 * 18cm peso: 600g. Los accesorios de 4 pistas tienen juntas de anclaje o dispositivos de separación, que se pueden instalar rápidamente, como luces, cámaras deportivas de visión nocturna, miras, etc.",
-        "imagen": "mira2.jpg",
-        "category": "Proteccion" 
+        "imagen": "https://img.freepik.com/fotos-premium/soldados-camuflaje-mascaras-jugando-paintball-bosque-deporte-extremo-arma-neumatica-balas-pintura-o-marcadores-juego-equipo-militar-al-aire-libre-tacticas-combate_266732-28392.jpg",
+        "category": "Proteccion",
+        "estado": 1  
     },
     {
         "id": 7,
         "nombre": "Casco Trebol" ,
         "descripcion": "Este casco está especialmente diseñado para pistolas de aire comprimido y otros deportes al aire libre, Largo, ancho y alto: 23.5 * 26 * 18cm peso: 600g. Los accesorios de 4 pistas tienen juntas de anclaje o dispositivos de separación, que se pueden instalar rápidamente, como luces, cámaras deportivas de visión nocturna, miras, etc.",
-        "imagen": "mira3.jpg",
-        "category": "Proteccion" 
+        "imagen": "https://img.freepik.com/fotos-premium/soldados-camuflaje-mascaras-jugando-paintball-bosque-deporte-extremo-arma-neumatica-balas-pintura-o-marcadores-juego-equipo-militar-al-aire-libre-tacticas-combate_266732-28392.jpg",
+        "category": "Proteccion",
+        "estado": 1  
  
     },
 
@@ -65,24 +72,37 @@
         "id": 9,
         "nombre": "Camuflado Stand" ,
         "descripcion": "Maddog Chaleco de batalla táctico de paintball - Camuflaje del bosque.",
-        "imagen": "v1.jpg",
-        "category": "Vestimenta" 
+        "imagen": "https://img.freepik.com/fotos-premium/soldados-camuflaje-mascaras-jugando-paintball-bosque-deporte-extremo-arma-neumatica-balas-pintura-o-marcadores-juego-equipo-militar-al-aire-libre-tacticas-combate_266732-28392.jpg",
+        "category": "Vestimenta",
+        "estado": 1  
  
     },
     {
         "id": 10,
         "nombre": "Camuflado Mix" ,
         "descripcion": "Unisexc | Maddog Chaleco de batalla táctico de paintball - Camuflaje del Hielo.",
-        "imagen": "v2.jpg",
-        "category": "Vestimenta" 
+        "imagen": "https://img.freepik.com/fotos-premium/soldados-camuflaje-mascaras-jugando-paintball-bosque-deporte-extremo-arma-neumatica-balas-pintura-o-marcadores-juego-equipo-militar-al-aire-libre-tacticas-combate_266732-28392.jpg",
+        "category": "Vestimenta",
+        "estado": 1  
  
     },
     {
         "id": 11,
         "nombre": "Camuflado Feil" ,
         "descripcion": "Maddog Chaleco de batalla táctico de paintball - Camuflaje del Artico.",
-        "imagen": "v3.jpg",
-        "category": "Vestimenta" 
+        "imagen": "https://img.freepik.com/fotos-premium/soldados-camuflaje-mascaras-jugando-paintball-bosque-deporte-extremo-arma-neumatica-balas-pintura-o-marcadores-juego-equipo-militar-al-aire-libre-tacticas-combate_266732-28392.jpg",
+        "category": "Vestimenta",
+        "estado": 1  
+ 
+    },
+
+    {
+        "id": 11,
+        "nombre": "Camuflado Feil" ,
+        "descripcion": "Maddog Chaleco de batalla táctico de paintball - Camuflaje del Artico.",
+        "imagen": "https://img.freepik.com/fotos-premium/soldados-camuflaje-mascaras-jugando-paintball-bosque-deporte-extremo-arma-neumatica-balas-pintura-o-marcadores-juego-equipo-militar-al-aire-libre-tacticas-combate_266732-28392.jpg",
+        "category": "Vestimenta",
+        "estado": 1  
  
     },
 
@@ -91,24 +111,36 @@
         "id": 12,
         "nombre": "Botas Reuinas" ,
         "descripcion": "Borceguies Botas Tácticas Cuero Flor Vacuno Borcego Tacticos de Cuero Flor ( El cuero Flor es del mayor calidad, mas brillo) Simil Cuero",
-        "imagen": "bo1.jpg",
-        "category": "Calzado" 
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_605604-MLA31118255946_062019-O.jpg",
+        "category": "Calzado",
+        "estado": 1  
  
     },
     {
         "id": 13,
         "nombre": "Botas Onix" ,
         "descripcion": "Cuero puro | Borceguies Botas Tácticas Cuero Flor Vacuno Borcego Tacticos de Cuero Flor ( El cuero Flor es del mayor calidad, mas brillo)",
-        "imagen": "bo2.jpg",
-        "category": "Calzado" 
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_605604-MLA31118255946_062019-O.jpg",
+        "category": "Calzado",
+        "estado": 1  
  
     },
     {
         "id": 14,
         "nombre": "Botas Arteio" ,
         "descripcion": "Cuero puro | Borceguies Botas Tácticas Cuero Flor Vacuno Borcego Tacticos de Cuero Flor ( El cuero Flor es del mayor calidad, mas brillo)",
-        "imagen": "bo3.jpg",
-        "category": "Calzado" 
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_605604-MLA31118255946_062019-O.jpg",
+        "category": "Calzado",
+        "estado": 1  
+ 
+    }
+    ,{
+        "id": 14,
+        "nombre": "Botas Arteio" ,
+        "descripcion": "Cuero puro | Borceguies Botas Tácticas Cuero Flor Vacuno Borcego Tacticos de Cuero Flor ( El cuero Flor es del mayor calidad, mas brillo)",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_605604-MLA31118255946_062019-O.jpg",
+        "category": "Calzado",
+        "estado": 1  
  
     }
 ]

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Link, useParams } from "react-router-dom"
+import { Link, useParams, NavLink } from "react-router-dom"
 import productsData from './productos.json' 
 
 
@@ -22,16 +22,18 @@ export default function CategoryContainer() {
             {products.map((producto) => (
 
                 <div>
-                    <Link to={`/item/${producto.id}`}>
+                    <NavLink to={`/item/${producto.id}`}>
                     <div className="card" style={{ width: '100%', float:'left', padding:'20px', maxWidth:'450px', marginLeft:'20px'}}>
                         
-                        <img src={producto.image} class="card-img-top" alt="..."></img>
+                        <img src={`${producto.imagen}`} class="card-img-top" alt="..."></img>
                         <div className="card-body">
-                            <h2>{producto.category} | {producto.nombre}</h2>
+                            <Link to={`/item/${producto.id}`}>
+                            <h2>{producto.nombre} {producto.estado}</h2>
+                            </Link>
                             <p className="card-text">{producto.descripcion}</p>
                         </div>
                     </div>
-                    </Link>
+                    </NavLink>
                     
                 </div>
 

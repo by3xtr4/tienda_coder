@@ -16,6 +16,8 @@ import ContenidoMensajes from './components/contenidoMensajes';
 import ContenidoNoticias from './components/contenidoNoticias';
 import CategoryContainer from './components/productos_categoria'
 import ItemContainer from './components/itemConteiner';
+import ProductosContainer from './components/contenidoProductos';
+
 
 function App() {
   return (
@@ -32,8 +34,8 @@ function App() {
           <Route exact path='/Noticias' element={<ContenidoNoticias/>} />
           
           <Route exact path='/Productos' element={<ContenidoProductos/>} />
-          <Route path='/category/:categoryName' element={<CategoryContainer />} />
-          <Route path='/item/:itemID' element={<ItemContainer />} />
+          <Route exact path='/category/:categoryName' element={<CategoryContainer />} />
+          <Route  exact path='/item/:itemID' element={<ItemContainer />} />
         
         </Routes>
       </div>

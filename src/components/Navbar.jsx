@@ -86,10 +86,10 @@ const Navbar = ()=>{
                             handleOnClick = {() => { console.log("boton presionado Marcadoras")}}
                             />
                         </Link>
-                        <Link to="/category/Protección">
+                        <Link to="/category/Proteccion">
                         <Boton
-                        nombre = "Protección"
-                        handleOnClick = {() => { console.log("boton presionado Protección")}}
+                        nombre = "Proteccion"
+                        handleOnClick = {() => { console.log("boton presionado Proteccion")}}
                         />
                         </Link>
                         <Link to="/category/Accesorios">
