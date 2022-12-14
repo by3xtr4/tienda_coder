@@ -80,31 +80,31 @@ const Navbar = ()=>{
                     
 
                     <ul className="navbar-nav">
-                        <Link to="category/Marcadoras">
+                        <Link to="/category/Marcadoras">
                             <Boton1
                             nombre = "Marcadoras"
                             handleOnClick = {() => { console.log("boton presionado Marcadoras")}}
                             />
                         </Link>
-                        <Link to="category/Proteccion">
+                        <Link to="/category/Proteccion">
                         <Boton
                         nombre = "Proteccion"
                         handleOnClick = {() => { console.log("boton presionado Proteccion")}}
                         />
                         </Link>
-                        <Link to="category/Accesorios">
+                        <Link to="/category/Accesorios">
                         <Boton
                         nombre = "Accesorios"
                         handleOnClick = {() => { console.log("boton presionado Accesorios")}}
                         />
                         </Link>
-                        <Link to="category/Vestimenta">
+                        <Link to="/category/Vestimenta">
                         <Boton
                         nombre = "Vestimenta"
                         handleOnClick = {() => { console.log("boton presionado Vestimenta")}}
                         />
                         </Link>
-                        <Link to="category/Calzado">
+                        <Link to="/category/Calzado">
                         <Boton
                         nombre = "Calzado"
                         handleOnClick = {() => { console.log("boton presionado Calzado")}}

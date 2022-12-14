@@ -10,7 +10,7 @@ export default function CategoryContainer() {
 
     useEffect(() => {
         const filteredProducts = productsData.filter((product) => {
-            return product.category == categoryName
+            return product.category === categoryName
         })
         setProducts(filteredProducts)
     }, [])

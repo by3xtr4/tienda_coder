@@ -33,8 +33,8 @@ function App() {
           <Route exact path='/Mensajes' element={<ContenidoMensajes/>} />
           <Route exact path='/Noticias' element={<ContenidoNoticias/>} />
           
-          <Route exact path='/Productos' element={<ContenidoProductos/>} />
-          <Route exact path='category/:categoryName' element={<CategoryContainer />} />
+          <Route  path='/Productos' element={<ContenidoProductos/>} />
+          <Route  path='/category/:categoryName' element={<CategoryContainer />} />
           <Route  exact path='/item/:itemID' element={<ItemContainer />} />
         
         </Routes>
