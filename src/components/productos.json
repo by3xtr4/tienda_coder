@@ -65,6 +65,7 @@
     },
 
 
+    
 
 
 
@@ -107,6 +108,9 @@
     },
 
 
+
+
+
     {
         "id": 12,
         "nombre": "Botas Reuinas" ,
@@ -135,11 +139,52 @@
  
     }
     ,{
-        "id": 14,
+        "id": 15,
         "nombre": "Botas Arteio" ,
         "descripcion": "Cuero puro | Borceguies Botas Tácticas Cuero Flor Vacuno Borcego Tacticos de Cuero Flor ( El cuero Flor es del mayor calidad, mas brillo)",
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_605604-MLA31118255946_062019-O.jpg",
         "category": "Calzado",
+        "estado": 1  
+ 
+    },
+
+
+
+
+
+    {
+        "id": 16,
+        "nombre": "Mira One" ,
+        "descripcion": "Mira, profesional, media distancia",
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/61-x0gv0TJL._AC_UL330_SR330,330_.jpg",
+        "category": "Accesorios",
+        "estado": 1  
+ 
+    },
+    {
+        "id": 16,
+        "nombre": "Mira One" ,
+        "descripcion": "Mira, profesional, corta distancia",
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/61-x0gv0TJL._AC_UL330_SR330,330_.jpg",
+        "category": "Accesorios",
+        "estado": 1  
+ 
+    },
+    {
+        "id": 18,
+        "nombre": "Mira One" ,
+        "descripcion": "Mira, profesional, larga distancia",
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/61-x0gv0TJL._AC_UL330_SR330,330_.jpg",
+        "category": "Accesorios",
+        "estado": 1  
+ 
+    }
+    ,{
+        "id": 19,
+        "nombre": "Mira One" ,
+        "descripcion": "Mira, profesional, larga distancia",
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/61-x0gv0TJL._AC_UL330_SR330,330_.jpg",
+        "category": "Accesorios",
         "estado": 1  
  
     }

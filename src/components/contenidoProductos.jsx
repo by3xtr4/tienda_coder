@@ -1,11 +1,11 @@
-import ApiProductos from './api_productos';
+import ProductosContainer from './contenidoProductos';
 
 
 function ContenidoProductos(){ 
     return(
         <div>
         <h1>Productos</h1>
-        <productosConteiner />
+        <productosContainer />
         {/* <ApiProductos /> */}
         </div>
     )
