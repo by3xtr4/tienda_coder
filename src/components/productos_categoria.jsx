@@ -5,6 +5,13 @@ import productsData from './productos.json'
 
 export default function CategoryContainer() {
     const [products, setProducts] = useState([])
+    const [loader, setLoader] = useState(true);
+
+    useEffect(() =>{
+        setTimeout(() =>{
+            setLoader(!loader);
+        },1000)
+    }, []);
 
     const { categoryName } = useParams()
 
@@ -18,6 +25,8 @@ export default function CategoryContainer() {
 
     return (
         <div>
+            { loader ? <div><img src='https://media2.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif' style={{ width: '50px'}} /><p>Cargando productos</p></div> : 
+            <div>
             <h1>{categoryName}</h1>
             {products.map((producto) => (
 
@@ -38,6 +47,10 @@ export default function CategoryContainer() {
                 </div>
 
             ))}
+
+            </div>
+            }
+            
         </div>
     )
 
