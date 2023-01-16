@@ -40,8 +40,7 @@ export default function CategoryContainer22() {
                         <div>
                             <h6>{producto.nombre}</h6>
                             
-                            <button>test</button>
-                            <NavLink to={`/item/${producto.id}`}> test2</NavLink>
+                            <NavLink to={`/item/${producto.id}`}> Ampliar</NavLink>
                         </div>
                     </div>
                     

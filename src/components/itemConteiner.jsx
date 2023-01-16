@@ -26,8 +26,10 @@ export default function ItemContainer() {
         <div>
             <div className="card" style={{ width: '100%', marginLeft: 'auto', marginRight: 'auto', float: 'center', padding:'20px', maxWidth:'600px'}}>
                 <h1>{product?.nombre}</h1>
-                <p>{product?.descripcion}</p>
                 <img src={product.imagen} />
+                <p>{product?.descripcion}</p>
+                
+
             </div>
         </div>
 

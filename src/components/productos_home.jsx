@@ -27,7 +27,10 @@ export default function CategoryContainerHome() {
         <div>
             { loader ? <div><img src='https://media2.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif' style={{ width: '50px'}} /><p>Cargando {categoryName}</p></div> : 
             <div>
-            <h1>{categoryName}</h1>
+                <h1></h1>
+                <h1></h1>
+            <h1>Productos en promoción 2023</h1>
+            <h6>Consulta por promociones vigentes<br></br></h6>
             {products.map((producto) => (
 
                 <div>

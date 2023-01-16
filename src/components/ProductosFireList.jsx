@@ -27,10 +27,12 @@ const ProductList = () => {
   const renderProducts = () => (
     products?.map(item => (
       <div className='product' key={item.id}>
+        <div className="card" style={{ width: '100%', float:'left', padding:'20px', maxWidth:'450px', marginLeft:'20px'}}>
         {item.imagen && <img alt="imagen" src={item.imagen} />}
         <h2>{item.nombre}</h2>
         <p>{item.descripcion}</p>
         <Link to={`/product/${item.id}`}> Ver detalle </Link>
+        </div>
       </div>
     ))
   )

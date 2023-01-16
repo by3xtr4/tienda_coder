@@ -19,10 +19,13 @@ import ItemContainer from './components/itemConteiner';
 import ProductList from './components/ProductosFireList'
 import Product from './components/ProductosFire_ampliar';
 import CategoryContainer22 from './components/productos_todos';
-
+/////last
+import CartProvider from './context/CartProvider';
 
 function App() {
   return (
+    <CartProvider>
+
     <div className="App">
       <BrowserRouter>
       <div>
@@ -49,12 +52,13 @@ function App() {
       
       
       <ItemListContainer
-      greeting = {"test"}
+      greeting = {"Precios bigentes hasta el 30 de Febrero de 2023 o hasta agotar  stock"}
       />
 
       <Footer/>
       
     </div>
+    </CartProvider>
   );
 }
 

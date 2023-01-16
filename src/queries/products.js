@@ -36,7 +36,7 @@ export const getProductById = (db, id) => {
 export const getProductsByCategory = (db, category_id) => {
   const collectionRef = query(
     collection(db, PRODUCT_COLLECTION),
-    where('category', '==', category_id)
+    where('id', '==', category_id)
   )
   return getDocs(collectionRef)
     .then((snapshot) => {
