@@ -25,7 +25,7 @@ export default function CategoryContainer() {
 
     return (
         <div>
-            { loader ? <div><img src='https://media2.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif' style={{ width: '50px'}} /><p>Cargando productos</p></div> : 
+            { loader ? <div><img src='https://media2.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif' style={{ width: '50px'}} /><p>Cargando {categoryName}</p></div> : 
             <div>
             <h1>{categoryName}</h1>
             {products.map((producto) => (
@@ -36,9 +36,9 @@ export default function CategoryContainer() {
                         
                         <img src={`${producto.imagen}`} class="card-img-top" alt="..."></img>
                         <div className="card-body">
-                            <Link to={`/item/${producto.id}`}>
+                            <NavLink to={`/item/${producto.id}`}>
                             <h2>{producto.nombre} {producto.estado}</h2>
-                            </Link>
+                            </NavLink>
                             <p className="card-text">{producto.descripcion}</p>
                         </div>
                     </div>

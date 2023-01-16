@@ -16,8 +16,8 @@ import ContenidoMensajes from './components/contenidoMensajes';
 import ContenidoNoticias from './components/contenidoNoticias';
 import CategoryContainer from './components/productos_categoria'
 import ItemContainer from './components/itemConteiner';
-import ProductosContainer from './components/contenidoProductos';
-
+import ProductList from './components/ProductosFireList'
+import Product from './components/ProductosFire_ampliar';
 
 function App() {
   return (
@@ -33,7 +33,10 @@ function App() {
           <Route exact path='/Mensajes' element={<ContenidoMensajes/>} />
           <Route exact path='/Noticias' element={<ContenidoNoticias/>} />
           
-          <Route  path='/Productos' element={<ContenidoProductos/>} />
+          <Route  path='/product/:id' element={<Product />} />
+          <Route  path='/ProductosFire' element={<ProductList />} />
+          
+          <Route  path='/Productos' element={<ProductList/>} />
           <Route  path='/category/:categoryName' element={<CategoryContainer />} />
           <Route  exact path='/item/:itemID' element={<ItemContainer />} />
         

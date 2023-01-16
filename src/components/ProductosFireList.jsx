@@ -1,0 +1,55 @@
+import { getFirestore } from 'firebase/firestore';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { getAllCategories } from '../queries/categories';
+import { getAllProducts } from '../queries/products';
+
+const ProductList = () => {
+  const [products, setProducts] = useState([]);
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    const db = getFirestore();
+    getAllProducts(db)
+      .then((item) => {
+        setProducts(item)
+      })
+  }, []);
+
+  useEffect(() => {
+    const db = getFirestore();
+    getAllCategories(db)
+      .then((item) => {
+        setCategories(item)
+      })
+  }, []);
+
+  const renderProducts = () => (
+    products?.map(item => (
+      <div className='product' key={item.id}>
+        {item.imagen && <img alt="imagen" src={item.imagen} />}
+        <h2>{item.nombre}</h2>
+        <p>{item.descripcion}</p>
+        <Link to={`/product/${item.id}`}> Ver detalle </Link>
+      </div>
+    ))
+  )
+
+  const renderCategories = () => (
+    <ul>
+      {categories?.map(item => (
+        <Link to={`/category/${item.id}`}><li key={item?.id}>{item?.name}</li></Link>
+      ))}
+    </ul>
+  )
+
+  return (
+    <>
+      <h3>Acá va a ir la product list</h3>
+      {renderCategories()}
+      {renderProducts()}
+    </>
+  )
+}
+
+export default ProductList;

@@ -51,20 +51,17 @@ const Navbar = ()=>{
                     </li>
                     </Link>
 
-                    {/* <li className="nav-item ">
-                    <div className="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mensajes
-                    </div>
-                    
-                    </li> */}
-                    <Link to="/Noticias" className="nav-item nav-link" >
+                    <Link to="/ProductosFire" className="nav-item nav-link" >
                     <li className="nav-item ">
                     <div className="nav-link "  role="button"  aria-expanded="false">
-                        Noticias
+                        
+                        Productos Fire
+                        
                     </div>
                     
                     </li>
                     </Link>
+
                 </ul>
                 </div>
             </div>
@@ -86,12 +83,7 @@ const Navbar = ()=>{
                             handleOnClick = {() => { console.log("boton presionado Marcadoras")}}
                             />
                         </Link>
-                        <Link to="/category/Proteccion">
-                        <Boton
-                        nombre = "Proteccion"
-                        handleOnClick = {() => { console.log("boton presionado Proteccion")}}
-                        />
-                        </Link>
+                      
                         <Link to="/category/Accesorios">
                         <Boton
                         nombre = "Accesorios"
@@ -110,9 +102,6 @@ const Navbar = ()=>{
                         handleOnClick = {() => { console.log("boton presionado Calzado")}}
                         />
                         </Link>
-
-
-                        
 
                     </ul>
 

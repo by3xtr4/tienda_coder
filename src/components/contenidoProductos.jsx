@@ -6,7 +6,6 @@ function ContenidoProductos(){
         <div>
         <h1>Productos</h1>
         <productosContainer />
-        {/* <ApiProductos /> */}
         </div>
     )
 }
