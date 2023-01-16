@@ -1,11 +1,12 @@
 import Slide from "./Slide";
-import News from "./News";
+import CategoryContainerHome from "./productos_home";
 
 function ContenidoInicio(){ 
     return(
         <div>
+            
             <Slide/>
-            {/* <News/> */}
+            <CategoryContainerHome/>
         </div>
     )
 }

@@ -11,24 +11,24 @@ const Slide = () =>{
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
-                    <img src="https://es.web.img2.acsta.net/pictures/14/02/21/17/47/329381.jpg" class="d-block w-100" alt="..."></img>
+                    <img src="https://www.megapaintballintl.com/imgs/banner5.jpg" class="d-block w-100" alt="..."></img>
                     <div className="carousel-caption d-none d-md-block">
-                        <h1 style={{color:'white'}}>First slide label</h1>
-                        <p style={{color:'white'}}>Some representative placeholder content for the first slide.</p>
+                        <h1 style={{color:'white'}}>BIENVENIDOS A TU PROXIMA COMPRA</h1>
+                        <p style={{color:'white'}}>Todo lo necesario para verdaderos profesionales!</p>
                     </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                    <img src="https://es.web.img2.acsta.net/pictures/14/02/21/17/47/329381.jpg" class="d-block w-100" alt="..."></img>
+                    <img src="https://i.pinimg.com/originals/ed/02/5e/ed025e1c5c61c25738278b26224544d0.jpg" class="d-block w-100" alt="..."></img>
                     <div className="carousel-caption d-none d-md-block">
-                        <h1 style={{color:'white'}}>Second slide label</h1>
-                        <p style={{color:'white'}}>Some representative placeholder content for the second slide.</p>
+                        <h1 style={{color:'white'}}>Armas, protección, vestimenta</h1>
+                        <p style={{color:'white'}}>Todo lo necesario</p>
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src="https://es.web.img2.acsta.net/pictures/14/02/21/17/47/329381.jpg" class="d-block w-100" alt="..."></img>
+                    <img src="https://www.megapaintballintl.com/imgs/banner2.jpg" class="d-block w-100" alt="..."></img>
                     <div className="carousel-caption d-none d-md-block">
-                        <h1 style={{color:'white'}}>Third slide label</h1>
-                        <p style={{color:'white'}}>Some representative placeholder content for the third slide.</p>
+                        <h1 style={{color:'white'}}>Sponsors Oficial 2023</h1>
+                        <p style={{color:'white'}}>Suma te a la revolu</p>
                     </div>
                     </div>
                 </div>

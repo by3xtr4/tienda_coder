@@ -7,7 +7,7 @@ import Logo from './components/Logo';
 import Separador1 from './components/Separador';
 import Footer from './components/Footer';
 import ItemListContainer from './components/ItemListContainer';
-import ContenidoProductos from './components/contenidoProductos';
+// import ContenidoProductos from './components/contenidoProductos';
 import { BrowserRouter, Routes, Route } from "react-router-dom" ; 
 import ContenidoInicio from './components/contenidoInicio';
 import ContenidoContacto from './components/contenidoContacto';
@@ -18,6 +18,8 @@ import CategoryContainer from './components/productos_categoria'
 import ItemContainer from './components/itemConteiner';
 import ProductList from './components/ProductosFireList'
 import Product from './components/ProductosFire_ampliar';
+import CategoryContainer22 from './components/productos_todos';
+
 
 function App() {
   return (
@@ -36,7 +38,7 @@ function App() {
           <Route  path='/product/:id' element={<Product />} />
           <Route  path='/ProductosFire' element={<ProductList />} />
           
-          <Route  path='/Productos' element={<ProductList/>} />
+          <Route  exact path='/Productos' element={<CategoryContainer22/>} />
           <Route  path='/category/:categoryName' element={<CategoryContainer />} />
           <Route  exact path='/item/:itemID' element={<ItemContainer />} />
         
@@ -47,12 +49,9 @@ function App() {
       
       
       <ItemListContainer
-      greeting = {"Bienvenidos a Paiball"}
+      greeting = {"test"}
       />
 
-
-      
-      <Separador1/>
       <Footer/>
       
     </div>

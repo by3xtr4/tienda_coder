@@ -1,8 +1,10 @@
 import React from "react";
+import Separador1 from "./Separador";
 
 const Footer=()=>{
     return(
         <div>
+            <Separador1/>
         <div id="carouselExampleSlidesOnly" className="carousel slide center" data-bs-ride="carousel" style={{ widht:'500px',  marginLeft:'auto', marginRight:'auto'}}>
                 <div className="carousel-inner center"  style={{ widht:'500px',  marginLeft:'auto', marginRight:'auto'}}>
                     
@@ -29,7 +31,7 @@ const Footer=()=>{
                    
                 </div>
             </div>
-
+        
         </div>
     )
 }

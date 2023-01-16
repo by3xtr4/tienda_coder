@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "nombre": "Marcadora One" ,
+        "nombre": "Marcadora One *****" ,
         "descripcion": "La velocidad máxima permitida de las bolas es de 300 fps (90 m/s). Cuando una bola impacta sobre el cuerpo a altas velocidades, tiene el potencial de causar daño. En cualquier caso, el daño causado depende de la velocidad de la bola, el ángulo de impacto, la calidad de la misma, y la parte del cuerpo sobre la que lo hace. Debido a este probabilidad de causar daños, los jugadores están obligados a llevar puesta una máscara que les proteja los ojos, boca y orejas mientras los dispositivos de bloqueo del cañón no estén colocados",
         "imagen": "1.jpg",
         "category":"Marcadoras"
@@ -35,7 +35,7 @@
 
     {
         "id": 5,
-        "nombre": "Casco One" ,
+        "nombre": "Casco One1111" ,
         "descripcion": "Este casco está especialmente diseñado para pistolas de aire comprimido y otros deportes al aire libre, Largo, ancho y alto: 23.5 * 26 * 18cm peso: 600g. Los accesorios de 4 pistas tienen juntas de anclaje o dispositivos de separación, que se pueden instalar rápidamente, como luces, cámaras deportivas de visión nocturna, miras, etc.",
         "imagen": "mira1.jpg",
         "category":"Proteccion"
